@@ -33,9 +33,9 @@
   },
   "homepage": "https://github.com/mongodb-model/http-route-maker#readme",
   "dependencies": {
-    "@mongodb-model/controller": "^0.0.0",
-    "@mongodb-model/http-controller": "^0.0.0",
-    "@mongodb-model/lib": "^0.0.10000",
+    "@mongodb-model/controller": "../controller",
+    "@mongodb-model/http-controller": "../http-controller",
+    "@mongodb-model/lib": "../lib",
     "dotenv": "16.0.3",
     "vitest": "0.25.1"
   }
